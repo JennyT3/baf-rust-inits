@@ -1,6 +1,11 @@
 [package]
-name = "my-first-steps-in-rust"
+name = "mi_primer_contrato"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
+
 
 [dependencies]
+soroban-sdk = "0.8.0"
+
+[lib]
+crate-type = ["cdylib"]
