@@ -51,6 +51,7 @@ soroban-sdk = "0.8.0"
 
 [lib]
 crate-type = ["cdylib"]
+```
 
 # Lo Que Construí
 1. Programa de Suma
